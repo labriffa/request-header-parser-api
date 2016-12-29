@@ -1,0 +1,21 @@
+html
+    head
+        title Request Header Parser Microservice
+        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+        link(rel="stylesheet", href="../css/style.css")
+        link(href="https://fonts.googleapis.com/css?family=Raleway", rel="stylesheet")
+    div(class="container")
+        h1 Request Header Parser Microservice
+        hr
+        ul(class="list-group")
+            li(class="list-group-item") Retrieves the IP address, language and operating system for your browser.
+        
+        h2 Example
+        div(class="well")
+            h4 Natural <i class="glyphicon glyphicon-chevron-right"></i> Unix
+            hr
+            a(class="example-link" href="https://npm-labriffa.c9users.io/api/whoami", target="_blank") https://npm-labriffa.c9users.io/api/whoami
+            hr
+            h4 Returns
+            hr
+            p(class="example-return") { <span class="unix">"ipaddress"</span>: "81.97.160.169", <span class="unix">"language"</span>: "en-US", <span class="unix">"software"</span>: "Macintosh; Intel Mac OS X 10_11_6" }
